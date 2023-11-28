@@ -10,12 +10,18 @@
   },
   "dependencies": {
     "@mdi/font": "7.0.96",
+    "@popperjs/core": "^2.11.8",
+    "@vuepic/vue-datepicker": "^7.2.2",
     "axios": "^1.6.2",
     "core-js": "^3.29.0",
+    "dayjs": "^1.11.10",
     "dotenv": "^16.3.1",
+    "litepie-datepicker": "^1.0.14",
     "pinia": "^2.0.0",
     "roboto-fontface": "*",
+    "v-calendar": "^3.1.2",
     "vue": "^3.2.0",
+    "vue-datepicker-ui": "^3.1.1",
     "vue-router": "^4.0.0",
     "vue3-google-map": "^0.18.0",
     "vuetify": "^3.0.0"
