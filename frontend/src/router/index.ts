@@ -33,8 +33,7 @@ const routes = [
     component: () => import('@/views/Detail.vue')
   },
   {
-
-    path: '/register',
+    path: '/register/:rid',
     component: () => import('@/views/Regist.vue')
   },
   {

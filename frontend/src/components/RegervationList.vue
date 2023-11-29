@@ -112,7 +112,6 @@ export default{
 .each-reserv:hover{
     color: rgb(0, 0, 0);
     background-color: rgb(218, 218, 218);
-    cursor: pointer;
 }
 
 .list-item-action{
