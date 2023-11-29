@@ -8,7 +8,10 @@
 
       <span>홈</span>
     </v-btn>
-    <v-btn value="recent">
+    <v-btn 
+    value="recent"
+    @click="ToSearch()"
+    >
       <v-icon>mdi-magnify</v-icon>
 
       <span>검색</span>
@@ -41,6 +44,11 @@ export default {
     ToHome(){
       this.$router.push({
         path:"/"
+      })
+    },
+    ToSearch(){
+      this.$router.push({
+        path:"/search"
       })
     }
   }
