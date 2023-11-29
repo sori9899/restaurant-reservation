@@ -1,0 +1,74 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "오마카세어진",
+      "photo": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221115_153%2F16684817077791m1c3_JPEG%2FResized_20221023_191355.jpg",
+      "description": "다양한 안주와 스시를 즐길 수 있는 술이 맛있는 공간",
+      "tel": "043-263-5212",
+      "menuItems": [
+        { "menu": "런치 오마카세", "price": "45,000원" },
+        { "menu": "디너 오마카세", "price": "55,000원" }
+      ],
+      "availableTime": [
+        "5:30 PM", "7:00 PM", "7:30 PM", "8:00 PM"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "스시키타이",
+      "photo": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MzBfMjc3%2FMDAxNjk2MDY3ODU0MjAz.ZLPlUmpKyTYwLJcyv5GKANCIBnnSvLRwezwgOB67qAUg.vCGCVOU1MEwlGUp3pcOuSDJ7X9_bPQzW2p3Db-ZB6wcg.JPEG.wojoom%2FIMG_2281.jpg",
+      "description": "정돈된 분위기에서 즐기는 섬세한 스시 오마카세",
+      "tel": "043-263-5213",
+      "menuItems": [
+        { "menu": "런치 오마카세", "price": "70,000원" },
+        { "menu": "디너 오마카세", "price": "130,000원" }
+      ],
+      "availableTime": [
+        "12:00 PM", "1:00 PM", "6:30 PM", "7:30 PM"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "미몽",
+      "photo": "https://search.pstatic.net/common/?src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20230319_170%2F1679187419896Mcjct_JPEG%2FKakaoTalk_20230319_095328293_06.jpg",
+      "description": "세련된 공간에서 즐기는 사시미 기반의 일식 요리",
+      "tel": "043-263-5214",
+      "menuItems": [
+        { "menu": "디너 오마카세", "price": "89,000원" },
+        { "menu": "콜키지", "price": "20,000원"}
+      ],
+      "availableTime": [
+        "6:30 PM", "7:00 PM", "7:30 PM", "8:00 PM"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "스시 온기",
+      "photo": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzExMDdfMTI3%2FMDAxNjk5MzUyOTc5NjEy.XWqQhW-UU8TZzjPWd2kt8kXNdQuN9LVa4Q2m78g8M0wg.14d9wsX3iSnGWgScyAMCBE8xQOmQ5vdsxzbwi9sGk0gg.JPEG.kminjung4733%2FIMG_7543.jpg",
+      "description": "가성비 좋은 스시오마카세, 입문용으로 좋은 스시",
+      "tel": "043-263-5215",
+      "menuItems": [
+        { "menu": "런치 오마카세", "price": "40,000원" },
+        { "menu": "디너 오마카세", "price": "55,000원" }
+      ],
+      "availableTime": [
+        "1:00 PM", "6:00 PM", "8:30 PM"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "청주 윤시스트 오마카세",
+      "photo": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220831_175%2F1661912726284I5JnO_JPEG%2F20220831_112451.jpg",
+      "description": "특색있는 숙성요리 스시 오마카세",
+      "tel": "043-263-5216",
+      "menuItems": [
+        { "menu": "11오마카세", "price": "110,000원" },
+        { "menu": "21오마카세", "price": "210,000원" }
+      ],
+      "availableTime": [
+        "12:30 PM", "6:30 PM", "7:30 PM"
+      ]
+    }
+  ]
+}
