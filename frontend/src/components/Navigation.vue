@@ -27,5 +27,5 @@ import {useRouter} from "vue-router";
 const router = useRouter();
 const goHome = () => router.push('home');
 const goSearch = () => router.push('search');
-const goMyInfo = () => router.push('myInfo');
+const goMyInfo = () => router.push('mypage');
 </script>
