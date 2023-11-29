@@ -6,7 +6,7 @@
 
 
 <script setup>
-import RergervationVue from "@/components/Rergervation.vue";
+import RergervationVue from "@/components/Regervation.vue";
 
 </script>
 

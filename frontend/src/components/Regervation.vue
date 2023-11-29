@@ -5,7 +5,7 @@
     min-width="400">
 
     <v-card-title class="title">
-    Rastaurant Regervation
+    식당 예약하기
     </v-card-title>
 
     <v-card-subtitle class="title btm">
@@ -26,7 +26,7 @@
     </v-card-text>
 
     <v-card-text>
-    Select Visit Time
+    방문시간
     <v-row>
         <!-- AM/PM Selector -->
         <v-col>
@@ -56,28 +56,28 @@
         </v-col>
     </v-row>
 
-    Reservation Name
+    예약자 이름
     <v-text-field
     v-model="reservname"
     :rules="rules"
     single-line
     ></v-text-field>
     
-    Phone number
+    예약자 전화번호
     <v-text-field
     v-model="phonenum"
     :rules="rules"
     single-line
     ></v-text-field>
 
-    Visit Member
+    방문자 수
     <v-text-field
     v-model="visitnum"
     :rules="rules"
     single-line
     ></v-text-field>
 
-    Select Course
+    코스 선택
     <v-select
         v-model="select"
         :hint="`${select.course}, ${select.menu}`"
@@ -90,7 +90,7 @@
         single-line
     ></v-select>
 
-    Requested
+    요청사항
     <v-textarea
     clearable
     clear-icon="mdi-close-circle"
