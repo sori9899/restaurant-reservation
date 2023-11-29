@@ -39,6 +39,10 @@ const routes = [
   {
     path: '/mypage',
     component: () => import('@/views/Mypage.vue')
+  },
+  {
+    path: '/update/:rid',
+    component:() => import('@/views/UpdateRegist.vue')
   }
 ]
 

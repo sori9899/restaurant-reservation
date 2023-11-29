@@ -23,14 +23,14 @@
                         </v-list-item-title>
 
                         <v-list-item-subtitle>
-                            예약 날짜: {{ reservation.reservationDate }}
+                            예약 날짜: {{ reservation.strdate }}
                         </v-list-item-subtitle>
                     </v-list-item-content>
                     
                     <!-- Delete button -->
                     <div class="list-item-action">
                         <v-list-item-action>
-                            <v-btn @click="updateReservation(index)" icon  variant="text" class="delete-bnt">
+                            <v-btn @click="updateReservation(reservation.rid)" icon  variant="text" class="delete-bnt">
                                 <v-icon color="black">mdi-pencil</v-icon>
                             </v-btn>
                         </v-list-item-action>
@@ -55,6 +55,7 @@
 </template>
 
 <script setup>
+import regervationjson from '@/database/regervation.json';
 
 </script>
 
@@ -62,37 +63,25 @@
 <script>
 export default{
     data: () => ({
-        reservations: [
-            // 예약 정보가 들어가는 배열
-            {
-            restaurantName: '레스토랑 1',
-            reservationDate: '2023-01-01',
-            },
-            {
-            restaurantName: '레스토랑 2',
-            reservationDate: '2023-01-02',
-            },
-            {
-            restaurantName: '레스토랑 3',
-            reservationDate: '2023-01-03',
-            },
-            {
-            restaurantName: '레스토랑 4',
-            reservationDate: '2023-01-04',
-            },
-            {
-            restaurantName: '레스토랑 5',
-            reservationDate: '2023-01-05',
-            },
-        ],
+        rjson : regervationjson,
+        reservations: [],
     }),
     methods:{
         deleteReservation(index) {
             // 예약 삭제 로직을 구현
-            console.log(index)
+            this.reservations.splice(index, 1);
         },
         updateReservation(index){
-            console.log(index)
+            const url = "/update/" + index;
+            this.$router.push({
+                path: url
+            })
+        }
+    },
+    mounted(){
+        const json = this.rjson.regervation;
+        for(var i=0; i<json.length; i++){
+            this.reservations.push(json[i])
         }
     }
 }

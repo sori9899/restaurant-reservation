@@ -1,0 +1,93 @@
+{
+    "regervation" : [
+        {
+            "rid" : "1",
+            "restaurantID" : "1",
+            "restaurantName" : "오마카세어진",
+            "rsturantTel" : "043.263.5212",
+            "strdate" : "2023.11.20",
+            "reservname" : "홍길동",
+            "request" : "밥 많이 주세요",
+            "phonenum" : "01034328876",
+            "visitnum" : "3",
+            "ampm" : "AM",
+            "selectedHour" : "11",
+            "selectedMinute" : "20",
+            "select" :{
+                "course" : "A Course",
+                "menu" : "Cream_Pasta, Soup, Bread, Steak, Wine"
+            }
+        },
+        {
+            "rid" : "2",
+            "restaurantID": "2",
+            "restaurantName": "한식당",
+            "rsturantTel": "02.1234.5678",
+            "strdate": "2023.11.24",
+            "reservname": "김철수",
+            "request": "매운 음식으로 부탁드립니다",
+            "phonenum": "01055557777",
+            "visitnum": "4",
+            "ampm": "PM",
+            "selectedHour": "7",
+            "selectedMinute": "30",
+            "select": {
+                "course": "B Course",
+                "menu": "Chicken, Pizza, Snacks, Beer"
+            }
+        },
+        {
+            "rid" : "3",
+            "restaurantID": "3",
+            "restaurantName": "이탈리안 다이닝",
+            "rsturantTel": "031.9876.5432",
+            "strdate": "2023.11.26",
+            "reservname": "이영희",
+            "request": "창가 자리 부탁드려요",
+            "phonenum": "01098765432",
+            "visitnum": "2",
+            "ampm": "PM",
+            "selectedHour": "6",
+            "selectedMinute": "15",
+            "select": {
+                "course": "C Course",
+                "menu": "Pork_belly, Soju, Steamed_eggs, Sold_noodles"
+            }
+        },{
+            "rid" : "4",
+            "restaurantID": "4",
+            "restaurantName": "스테이크하우스",
+            "rsturantTel": "051.1234.5678",
+            "strdate": "2023.11.27",
+            "reservname": "박민수",
+            "request": "양파는 빼주세요",
+            "phonenum": "01033334444",
+            "visitnum": "5",
+            "ampm": "PM",
+            "selectedHour": "8",
+            "selectedMinute": "45",
+            "select": {
+                "course": "None",
+                "menu": "later decision"
+            }
+        },
+        {
+            "rid" : "5",
+            "restaurantID": "5",
+            "restaurantName": "일본식 회집",
+            "rsturantTel": "02.9876.5432",
+            "strdate": "2023.11.28",
+            "reservname": "나미코",
+            "request": "초밥 많이 주세요",
+            "phonenum": "01066667777",
+            "visitnum": "2",
+            "ampm": "PM",
+            "selectedHour": "7",
+            "selectedMinute": "0",
+            "select": {
+                "course": "D Course",
+                "menu": "Sushi, Rice_wine, Udon, Rolls"
+            }
+        }
+    ]
+}
