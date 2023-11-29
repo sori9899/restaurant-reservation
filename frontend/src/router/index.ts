@@ -21,13 +21,9 @@ const routes = [
     component: () => import('@/views/Search.vue'),
   },
   {
-    path: '/detail',
-    component: () => import('@/views/Detail.vue')
-  },
-  {
     path: '/register',
     component: () => import('@/views/Regist.vue')
-  }
+  },
 ]
 
 const router = createRouter({
