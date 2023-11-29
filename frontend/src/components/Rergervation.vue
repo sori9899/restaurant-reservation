@@ -226,12 +226,16 @@ export default {
         const rid = this.$route.params.rid;
         
         this.RsturantID = rid;
-
+        const len = this.rjson.regervation;
         if(this.Cvalue == "write"){
             this.strdate = `${year}.${month}.${day}`;
-            console.log(this.rjson.regervation)
+            for(var i=0; i<len.length; i++){
+                if(len[i].rid == rid){
+                    this.RsturantName = len[i].restaurantName;
+                    this.RsturantTel = len[i].rsturantTel;
+                }
+            }
         }else{
-            const len = this.rjson.regervation;
             for(var i=0; i<len.length; i++){
                 if(len[i].rid == rid){
                     this.RsturantID = len[i].restaurantID;
