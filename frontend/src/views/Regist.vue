@@ -1,7 +1,7 @@
 
 <template>
   <v-container>
-    <RergervationVue></RergervationVue>
+    <RergervationVue v-bind:Cvalue="write"></RergervationVue>
   </v-container>
 </template>
 
@@ -12,7 +12,9 @@ import RergervationVue from '@/components/Rergervation.vue'
 <script>
 
 export default {
-
+    data: () => ({
+        write:"write"
+    }),
 }
 
 </script>

@@ -10,7 +10,7 @@
                 <div class="ma-4">
                 <v-img
                 class="bg-white round"
-                width="200"
+                width="150"
                 :aspect-ratio="1"
                 src="src/img/user.png"
                 cover
@@ -23,7 +23,10 @@
                     Username
                 </v-card-title>
                 <v-card-title>
-                    가입시기 : 2023.10.12
+                    가입시기 : 23.10.12
+                </v-card-title>
+                <v-card-title>
+                    Tel. 010.8883.2384
                 </v-card-title>
             </div>
             </div>
