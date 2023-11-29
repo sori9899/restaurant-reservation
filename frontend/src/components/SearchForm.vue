@@ -85,6 +85,7 @@
 <script lang="ts">
 import {defineComponent, ref} from "vue";
 import SearchToolbar from "@/components/SearchToolbar.vue";
+import {useRouter} from "vue-router";
 
 const createTimeOptions = (startHour: number, startMinute: number): Date[] => {
   const time = new Date();
@@ -120,6 +121,7 @@ export default defineComponent({
     const foodCategories = ['한식', '일식', '양식', '중식'];
     const timeOptions: Date[] = createTimeOptions(9, 0);
 
+    const router = useRouter();
     const formData = ref({
       numberOfPeople: 0,
       price: [0, 100000],
@@ -128,10 +130,7 @@ export default defineComponent({
       timeOptionIndex: 0
     });
 
-    const submit = () => console.log({
-      ...formData.value,
-      date: merge(formData.value.date, timeOptions[formData.value.timeOptionIndex])
-    }); //FIXME API 호출로 변경
+    const submit = () => router.push('/restaurants');
 
     return {
       foodCategories,

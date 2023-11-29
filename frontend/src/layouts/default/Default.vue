@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <search-toolbar />
-    <slide-groups />
+    <recommend-restaurant/>
     <google-map />
     <navigation />
   </v-app>
@@ -11,5 +11,5 @@
 import SearchToolbar from '@/components/SearchToolbar.vue';
 import Navigation from '@/components/Navigation.vue';
 import GoogleMap from '@/components/GoogleMap.vue';
-import SlideGroups from '@/components/SlideGroups.vue';
+import RecommendRestaurant from "@/components/RecommendRestaurant.vue";
 </script>
